@@ -44,7 +44,7 @@ class PathListener extends MouseAdapter {
 
     public void mouseReleased(MouseEvent event) {
         Path2D path = (Path2D) shape;
-        path.closePath();
+        System.out.println();
         shape = path;
         main.repaint();
     }
